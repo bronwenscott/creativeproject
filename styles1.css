@@ -1,0 +1,117 @@
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+.navbar-start {
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.bg-light {
+	background-color: transparent !important;
+}
+
+
+.col {
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 50px;
+
+	text-align: center;
+}
+
+.description p {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+
+.navbar-start {
+	padding-bottom: 50px;
+}
+
+.downloads {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.prices {
+	text-align: center;
+}
+
+.custom {
+	margin-right: 20%;
+	margin-left: 20%;
+	justify-content: center;
+	text-align: center;
+}
+
+.card-body {
+	border: none;
+}
+
+.btn {
+	background-color: black;
+	border: none;
+	font-style: normal;
+}
+
+.btn:hover {
+	background-color: gray;
+}
+
+.problem {
+	padding-top: 34px;
+}
+
+.definition {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.prompt {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.d {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.defsamplecards {
+	display: flex;
+	justify-content: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
